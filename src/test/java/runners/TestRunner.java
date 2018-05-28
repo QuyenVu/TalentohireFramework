@@ -13,7 +13,8 @@ import managers.FileReaderManager;
 @CucumberOptions(
         features = "src/test/resources/functionalTests",
         glue= {"stepDefinitions"},
-        plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"},
+        format={"json:target/cucumber.json"}
+        /*plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"},*/
        /* tags = {"@valid"},*/
         monochrome = true)
 public class TestRunner {

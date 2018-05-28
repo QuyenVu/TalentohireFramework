@@ -2,48 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9edf0546-777d-4617-8cd0-c6db7c12d894" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Libs/Drivers/IEDriverServer.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Libs/Drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Libs/Drivers/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/Configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/extent-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/RestExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/RestResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/RestValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataContext/ScenarioContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataContext/TestContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataProviders/ConfigFileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataProviders/ExcelFileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataProviders/JsonDataReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/DriverType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/EnvironmentType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/helpers/DataBaseHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/helpers/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/managers/FileReaderManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/managers/PageObjectManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/managers/WebDriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/ImageGalleryPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Common.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ConvertUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ListUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/RandomCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/TimeStamp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/ImageGalleryPageSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/functionalTests/End2End_Tests.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/image/test.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/image/test.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testDataResources/Customer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,11 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="663">
               <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestRunner.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/runners/TestRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -142,13 +110,13 @@
         <option value="$PROJECT_DIR$/src/main/java/managers/WebDriverManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/managers/PageObjectManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java" />
-        <option value="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/ImageGalleryPageSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/ImageGalleryPage.java" />
         <option value="$PROJECT_DIR$/configs/Configuration.properties" />
         <option value="$PROJECT_DIR$/src/main/java/dataProviders/ConfigFileReader.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/helpers/DataBaseHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" />
       </list>
     </option>
   </component>
@@ -215,6 +183,44 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="helpers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TalentohireFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TalentohireFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TalentohireFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TalentohireFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TalentohireFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TalentohireFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TalentohireFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TalentohireFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TalentohireFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TalentohireFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber-reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TalentohireFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TalentohireFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="surefire-reports" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -582,13 +588,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/runners/TestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -827,13 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/runners/TestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/ImageGalleryPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -890,10 +882,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/emailable-report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="67" lean-forward="true" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/runners/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
         </state>
       </provider>
     </entry>
