@@ -1,0 +1,110 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 744728,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenarioStart(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 4867805643,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "The user will upload an image from local machine to server",
+        "description": "",
+        "id": "automated-end2end-tests;the-user-will-upload-an-image-from-local-machine-to-server",
+        "after": [
+          {
+            "result": {
+              "duration": 1415030230,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 123063,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenarioFinish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1004322732,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on test_gallery Page",
+            "match": {
+              "location": "ImageGalleryPageSteps.user_is_on_test_gallery_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 66196793,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "he upload the his image from local \"test.jpg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test.jpg",
+                  "offset": 36
+                }
+              ],
+              "location": "ImageGalleryPageSteps.he_upload_the_his_image_from_local(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5064150909,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify the image will be uploaded to server successfully",
+            "match": {
+              "location": "ImageGalleryPageSteps.verify_the_image_will_be_uploaded_to_server_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@valid"
+          }
+        ]
+      }
+    ],
+    "name": "Automated End2End Tests",
+    "description": "Description: The purpose of this feature is to test End 2 End integration.",
+    "id": "automated-end2end-tests",
+    "keyword": "Feature",
+    "uri": "End2End_Tests.feature"
+  }
+]

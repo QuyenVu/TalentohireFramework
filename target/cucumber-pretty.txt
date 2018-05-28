@@ -1,0 +1,8 @@
+Feature: Automated End2End Tests
+  Description: The purpose of this feature is to test End 2 End integration.
+
+  @valid
+  Scenario: The user will upload an image from local machine to server # End2End_Tests.feature:5
+    Given user is on test_gallery Page                                 # ImageGalleryPageSteps.user_is_on_test_gallery_Page()
+    When he upload the his image from local "test.jpg"                 # ImageGalleryPageSteps.he_upload_the_his_image_from_local(String)
+    Then verify the image will be uploaded to server successfully      # ImageGalleryPageSteps.verify_the_image_will_be_uploaded_to_server_successfully()
