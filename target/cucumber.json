@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 744728,
+              "duration": 3949663,
               "status": "passed"
             },
             "match": {
@@ -15,7 +15,7 @@
           },
           {
             "result": {
-              "duration": 4867805643,
+              "duration": 4511144108,
               "status": "passed"
             },
             "match": {
@@ -30,7 +30,7 @@
         "after": [
           {
             "result": {
-              "duration": 1415030230,
+              "duration": 772625142,
               "status": "passed"
             },
             "match": {
@@ -39,7 +39,7 @@
           },
           {
             "result": {
-              "duration": 123063,
+              "duration": 54655,
               "status": "passed"
             },
             "match": {
@@ -52,7 +52,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1004322732,
+              "duration": 874527581,
               "status": "passed"
             },
             "line": 6,
@@ -64,7 +64,7 @@
           },
           {
             "result": {
-              "duration": 66196793,
+              "duration": 62921686,
               "status": "passed"
             },
             "line": 7,
@@ -82,7 +82,7 @@
           },
           {
             "result": {
-              "duration": 5064150909,
+              "duration": 5035939079,
               "status": "passed"
             },
             "line": 8,
@@ -97,6 +97,104 @@
           {
             "line": 4,
             "name": "@valid"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 409036,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenarioStart(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 3327239171,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "The user will upload an invalid file from local machine to server",
+        "description": "",
+        "id": "automated-end2end-tests;the-user-will-upload-an-invalid-file-from-local-machine-to-server",
+        "after": [
+          {
+            "result": {
+              "duration": 738983715,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 68408,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenarioFinish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 367278128,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is on test_gallery Page",
+            "match": {
+              "location": "ImageGalleryPageSteps.user_is_on_test_gallery_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2063810633,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "he upload the invalid file from local \"test.docx\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test.docx",
+                  "offset": 39
+                }
+              ],
+              "location": "ImageGalleryPageSteps.he_upload_the_invalid_file_from_local(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5036346352,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "verify the file will not be uploaded to server successfully",
+            "match": {
+              "location": "ImageGalleryPageSteps.verify_the_file_will_not_be_uploaded_to_server_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@invalid"
           }
         ]
       }
